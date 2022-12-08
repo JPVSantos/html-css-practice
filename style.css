@@ -4,17 +4,69 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav-bar{
+.header{
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav-bar-left{
-    display: flex;
+.header-left{
+    width: 200px;
+    font-size: 30px;
+    border-style: solid;
+    padding: 10px
+}
+
+.header-right{
     width: 100px;
     font-size: 30px;
+    border-style: solid;
+    padding: 10px
 }
 
-.nav-bar-right{
+.navbar{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    border-style: double;
+}
+
+.main-body,
+.author{
+    display: flex;
+    margin: 10px 15% 10px 15%;
+    justify-content: space-between;
+}
+
+.heading {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    border-style: solid;
+}
+
+.author{
+    font-size: 25px;
+
+}
+
+.author-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-left{
+    padding: 7px;
+}
+
+.facebook, .twitter, .share{
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
 
 }
